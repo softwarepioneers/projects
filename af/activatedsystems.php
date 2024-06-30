@@ -1,3 +1,7 @@
+<?php
+$PageName="الأكاديمية صوماليلاند";
+include 'header.php';
+?>
 
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
@@ -30,7 +34,7 @@
                             </button>
                             <div>
                                <h4>
-                                    <a href="index.html" class="navbar-nav fa fa-book" class="navbar navbar-light bg-light" style="padding: 10px; text-decoration: none;font-size:30px" style="font-size: 1px;">
+                                    <a href="index.php" class="navbar-nav fa fa-book" class="navbar navbar-light bg-light" style="padding: 10px; text-decoration: none;font-size:30px" style="font-size: 1px;">
                                         الأكاديمية صوماليلاند
                                     </a>
                                 </h4>
@@ -42,22 +46,22 @@
                         <div id="navbar-collapsed-menu" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
                                <li class="active">
-                                    <a href="index.html"> الرئيسية</a>
+                                    <a href="index.php"> الرئيسية</a>
                                 </li>
                                 <li>
-                                    <a href="ministry_project.html">الوزارة التعليم</a>
+                                    <a href="ministry_project.php">الوزارة التعليم</a>
                                 </li>
                                 <li>
-                                    <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">المدارس</a>
+                                    <a href="english/page-login.php" target="_blank" class="hidden-xs hidden-sm">المدارس</a>
                                 </li>
                                 <li>
-                                    <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">المعاهد</a>
+                                    <a href="english/page-login.php" target="_blank" class="hidden-xs hidden-sm">المعاهد</a>
                                 </li>
                                 <li>
-                                    <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">الجامعات</a>
+                                    <a href="english/page-login.php" target="_blank" class="hidden-xs hidden-sm">الجامعات</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">البريد </a>
+                                    <a href="contact.php">البريد </a>
                                 </li>
                             </ul>
                         </div>
@@ -126,7 +130,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="kgschools.html" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
+                            <p><a href="kgschools.php" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
                         </div>
                     </div>
                 </div>
@@ -157,7 +161,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="primaryschools.html" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
+                            <p><a href="primaryschools.php" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
                         </div>
                     </div>
                 </div>
@@ -188,7 +192,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="preparatoryschools.html" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
+                            <p><a href="preparatoryschools.php" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
                         </div>
                     </div>
                 </div>
@@ -219,7 +223,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="secondaryschools.html" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
+                            <p><a href="secondaryschools.php" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
                         </div>
                     </div>
                 </div>
@@ -251,7 +255,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="academicinstitutes.html" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
+                            <p><a href="academicinstitutes.php" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
                         </div>
                     </div>
                 </div>
@@ -282,7 +286,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="academicuniversities.html" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
+                            <p><a href="academicuniversities.php" class="btn btn-primary custom-btn-primary"> الأنظمة</a></p>
                         </div>
                     </div>
                 </div>
@@ -329,7 +333,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="kgschoolsexams.html" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
+                            <p><a href="kgschoolsexams.php" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
                         </div>
                     </div>
                 </div>
@@ -360,7 +364,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="primaryschoolsexams.html" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
+                            <p><a href="primaryschoolsexams.php" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
                         </div>
                     </div>
                 </div>
@@ -391,7 +395,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="preparatoryschoolsexams.html" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
+                            <p><a href="preparatoryschoolsexams.php" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
                         </div>
                     </div>
                 </div>
@@ -422,7 +426,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="secondaryschoolsexams.html" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
+                            <p><a href="secondaryschoolsexams.php" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
                         </div>
                     </div>
                 </div>
@@ -454,7 +458,7 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="academicinstitutesexams.html" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
+                            <p><a href="academicinstitutesexams.php" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
                         </div>
                     </div>
                 </div>
@@ -485,44 +489,13 @@
                                 النشطة
                             </h4>
 
-                            <p><a href="academicuniversitiesexams.html" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
+                            <p><a href="academicuniversitiesexams.php" class="btn btn-primary custom-btn-primary"> الإمتحانات</a></p>
                         </div>
                     </div>
                 </div>
             </div>
 
 
-             <div id="footer" class="row">
-                <div class="container-fluid-fluid">
-                    <div class="col-xs-12 text-center">
-                        <h2>
-                            الأكاديمية صوماليلاند
-                        </h2>
-                        <hr />
-                    </div>
-                    <br />
-                    <div id="footer-nav-links" class="col-xs-12 text-center">
-                       <a href="somali.html">اللغة الصومالية</a>
-                        <a href="activatedsystems.html" class="hidden-xs hidden-sm">العملاء</a>
-                        <a href="activatedsystems.html" class="hidden-xs hidden-sm">الإمتحانات </a>
-                        <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">المدارس</a>
-                        <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">المعاهد</a>
-                        <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">الجامعات</a>
-                        <a href="index.html">اللغة الإنجليزية</a>
-
-                        <hr />
-                    </div>
-
-                    <div class="col-xs-12 text-center">
-                        <h2>جميع حقوق محفوظة.</h2>
-                        <h2><span id="demo"></span> &copy;</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script src="js/jquery-2.2.4.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/script.js"></script>
-    </body>
-</html>
+            <?php
+include 'footer.php';
+?>

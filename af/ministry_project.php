@@ -29,7 +29,7 @@
                             </button>
                             <div>
                                 <h4>
-                                    <a href="index.html" class="navbar-nav fa fa-book" class="navbar navbar-light bg-light" style="padding: 10px; text-decoration: none;font-size:30px" style="font-size: 1px;">
+                                    <a href="index.php" class="navbar-nav fa fa-book" class="navbar navbar-light bg-light" style="padding: 10px; text-decoration: none;font-size:30px" style="font-size: 1px;">
                                         الأكاديمية صوماليلاند
                                     </a>
                                 </h4>
@@ -41,22 +41,22 @@
                         <div id="navbar-collapsed-menu" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
                                <li >
-                                    <a href="index.html"> الرئيسية</a>
+                                    <a href="index.php"> الرئيسية</a>
                                 </li>
                                 <li class="active">
-                                    <a href="ministry_project.html">الوزارة التعليم</a>
+                                    <a href="ministry_project.php">الوزارة التعليم</a>
                                 </li>
                                 <li>
-                                    <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">المدارس</a>
+                                    <a href="english/page-login.php" target="_blank" class="hidden-xs hidden-sm">المدارس</a>
                                 </li>
                                 <li>
-                                    <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">المعاهد</a>
+                                    <a href="english/page-login.php" target="_blank" class="hidden-xs hidden-sm">المعاهد</a>
                                 </li>
                                 <li>
-                                    <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">الجامعات</a>
+                                    <a href="english/page-login.php" target="_blank" class="hidden-xs hidden-sm">الجامعات</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">البريد </a>
+                                    <a href="contact.php">البريد </a>
                                 </li>
                             </ul>
                         </div>
@@ -340,7 +340,7 @@
                             <h4 class="custom-title hidden-xs">المراكز</h4>
                             <h4 class="custom-title hidden-xs">الأكاديمية</h4>
 
-                            <p><a href="ministry_systems_centers_institution.html" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
+                            <p><a href="ministry_systems_centers_institution.php" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
                         </div>
                     </div>
                 </div>
@@ -366,7 +366,7 @@
                             <h4 class="custom-title hidden-xs">الأكاديمية</h4>
                             <h4 class="custom-title hidden-xs">المسجلة</h4>
 
-                            <p><a href="ministry_systems_centers_institutions.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_systems_centers_institutions.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -392,7 +392,7 @@
                             <h4 class="custom-title hidden-xs">الأنظمة</h4>
                             <h4 class="custom-title hidden-xs">المراكز</h4>
 
-                            <p><a href="ministry_systems_centers_system.html" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
+                            <p><a href="ministry_systems_centers_system.php" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
                         </div>
                     </div>
                 </div>
@@ -418,7 +418,7 @@
                             <h4 class="custom-title hidden-xs">المراكز</h4>
                             <h4 class="custom-title hidden-xs">المسجلة</h4>
 
-                            <p><a href="ministry_systems_centers_systems.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_systems_centers_systems.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -445,7 +445,7 @@
                             <h4 class="custom-title hidden-xs">الأنظمة</h4>
                             <h4 class="custom-title hidden-xs">المراكز</h4>
 
-                            <p><a href="ministry_systems_centers_activation.html" class="btn btn-primary custom-btn-primary"> التنشيط</a></p>
+                            <p><a href="ministry_systems_centers_activation.php" class="btn btn-primary custom-btn-primary"> التنشيط</a></p>
                         </div>
                     </div>
                 </div>
@@ -471,7 +471,7 @@
                             <h4 class="custom-title hidden-xs">المراكز</h4>
                             <h4 class="custom-title hidden-xs">النشطة</h4>
 
-                            <p><a href="ministry_systems_centers_activations.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_systems_centers_activations.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -507,7 +507,7 @@
                             <h4 class="custom-title hidden-xs">المراكز</h4>
                             <h4 class="custom-title hidden-xs">الأكاديمية</h4>
 
-                            <p><a href="ministry_examinations_centers_institution.html" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
+                            <p><a href="ministry_examinations_centers_institution.php" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
                         </div>
                     </div>
                 </div>
@@ -533,7 +533,7 @@
                             <h4 class="custom-title hidden-xs">الأكاديمية</h4>
                             <h4 class="custom-title hidden-xs">المسجلة</h4>
 
-                            <p><a href="ministry_examinations_centers_institutions.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_examinations_centers_institutions.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -559,7 +559,7 @@
                             <h4 class="custom-title hidden-xs">الإمتحانات</h4>
                             <h4 class="custom-title hidden-xs">المراكز</h4>
 
-                            <p><a href="ministry_examinations_centers_system.html" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
+                            <p><a href="ministry_examinations_centers_system.php" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
                         </div>
                     </div>
                 </div>
@@ -585,7 +585,7 @@
                             <h4 class="custom-title hidden-xs">المراكز</h4>
                             <h4 class="custom-title hidden-xs">المسجلة</h4>
 
-                            <p><a href="ministry_examinations_centers_systems.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_examinations_centers_systems.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -612,7 +612,7 @@
                             <h4 class="custom-title hidden-xs">الإمتحانات</h4>
                             <h4 class="custom-title hidden-xs">المراكز</h4>
 
-                            <p><a href="ministry_examinations_centers_activation.html" class="btn btn-primary custom-btn-primary"> التنشيط</a></p>
+                            <p><a href="ministry_examinations_centers_activation.php" class="btn btn-primary custom-btn-primary"> التنشيط</a></p>
                         </div>
                     </div>
                 </div>
@@ -638,7 +638,7 @@
                             <h4 class="custom-title hidden-xs">المراكز</h4>
                             <h4 class="custom-title hidden-xs">النشطة</h4>
 
-                            <p><a href="ministry_examinations_centers_activations.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_examinations_centers_activations.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -674,7 +674,7 @@
                             <h4 class="custom-title hidden-xs">الصفقات</h4>
                             <h4 class="custom-title hidden-xs">الأكاديمية</h4>
 
-                            <p><a href="ministry_contract.html" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
+                            <p><a href="ministry_contract.php" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
                         </div>
                     </div>
                 </div>
@@ -700,7 +700,7 @@
                             <h4 class="custom-title hidden-xs">الأكاديمية</h4>
                             <h4 class="custom-title hidden-xs">المسجلة</h4>
 
-                            <p><a href="ministry_contracts.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_contracts.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -726,7 +726,7 @@
                             <h4 class="custom-title hidden-xs">المعلمين</h4>
                             <h4 class="custom-title hidden-xs">الأكاديميين</h4>
 
-                            <p><a href="ministry_teacher.html" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
+                            <p><a href="ministry_teacher.php" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
                         </div>
                     </div>
                 </div>
@@ -753,7 +753,7 @@
                             <h4 class="custom-title hidden-xs">الأكاديميين</h4>
                          
 
-                            <p><a href="ministry_teachers.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_teachers.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -780,7 +780,7 @@
                             <h4 class="custom-title hidden-xs">الطلاب</h4>
                             <h4 class="custom-title hidden-xs">الأكاديميين</h4>
 
-                            <p><a href="ministry_student.html" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
+                            <p><a href="ministry_student.php" class="btn btn-primary custom-btn-primary"> التسجيل</a></p>
                         </div>
                     </div>
                 </div>
@@ -807,7 +807,7 @@
                             <h4 class="custom-title hidden-xs">الأكاديميين</h4>
                             
 
-                            <p><a href="ministry_students.html" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
+                            <p><a href="ministry_students.php" class="btn btn-primary custom-btn-primary"> السجلات</a></p>
                         </div>
                     </div>
                 </div>
@@ -815,37 +815,6 @@
 
            
             
-            <div id="footer" class="row">
-                <div class="container-fluid-fluid">
-                    <div class="col-xs-12 text-center">
-                        <h2>
-                            الأكاديمية صوماليلاند
-                        </h2>
-                        <hr />
-                    </div>
-                    <br />
-                    <div id="footer-nav-links" class="col-xs-12 text-center">
-                       <a href="somali.html">اللغة الصومالية</a>
-                        <a href="activatedsystems.html" class="hidden-xs hidden-sm">العملاء</a>
-                        <a href="activatedsystems.html" class="hidden-xs hidden-sm">الإمتحانات </a>
-                        <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">المدارس</a>
-                        <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">المعاهد</a>
-                        <a href="english/page-login.html" target="_blank" class="hidden-xs hidden-sm">الجامعات</a>
-                        <a href="index.html">اللغة الإنجليزية</a>
-
-                        <hr />
-                    </div>
-
-                    <div class="col-xs-12 text-center">
-                        <h2>جميع حقوق محفوظة.</h2>
-                        <h2><span id="demo"></span> &copy;</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <script src="js/jquery-2.2.4.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/script.js"></script>
-    </body>
-</html>
+            <?php
+include 'footer.php';
+?>
