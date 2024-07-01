@@ -1,4 +1,8 @@
 
+<?php
+$PageName="الأكاديمية صوماليلاند";
+include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
     <head>
