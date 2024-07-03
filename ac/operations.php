@@ -44,7 +44,7 @@ if(isset($_POST['RegisterSchool'])){
     // $EndSystem =$_POST['EndSystem'];
 
 
-    $sql = "INSERT INTO `schools`(`SchoolName`, `SchoolType`,
+    $RegisterSchool = "INSERT INTO `schools`(`SchoolName`, `SchoolType`,
     `SchoolManager`, `SchoolPhone`, `SchoolMobile`, `SchoolWhatsapp`, 
     `SchoolEmail`, `SchoolRegion`, `SchoolCity`, `SchoolDistrict`, 
     `SchoolSpecialty`, `SchoolSyllabus`, `RegistrationDate`, `StartContract`,
@@ -69,8 +69,11 @@ if(isset($_POST['RegisterSchool'])){
     //   '$SchoolPassword','$SchoolSystem','$SchoolSystemType','$SchoolStatus',
     //   '$StartSystem','$EndSystem')";
 
-    if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+    if ($conn->query($RegisterSchool) === TRUE) {
+        // echo "New record created successfully";
+        // echo "<script>alert('Record inserted successfully');</script>";
+        header("location:schools_institution.php");
+        exit;
       } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
       }
@@ -84,6 +87,7 @@ if(isset($_POST['RegisterSchool'])){
 
 if(isset($_POST['RegisterSystem'])){
 
+   $SchoolId =$_POST['SchoolId'];
     $SchoolName =$_POST['SchoolName'];
     $SchoolType =$_POST['SchoolType'];
     $SchoolManager =$_POST['SchoolManager'];
@@ -95,6 +99,31 @@ if(isset($_POST['RegisterSystem'])){
     $SchoolCity =$_POST['SchoolCity'];
     $SchoolDistrict =$_POST['SchoolDistrict'];
     $SchoolSpecialty =$_POST['SchoolSpecialty'];
+    $SchoolUser =$_POST['SchoolUser'];
+    $SchoolPassword =$_POST['SchoolPassword'];
+    $SchoolSystem =$_POST['SchoolSystem'];
+    $SchoolSystemType =$_POST['SchoolSystemType'];
+
+
+    $RegisterSystem = "UPDATE  `schools`SET
+     $SchoolName =`SchoolName`, $SchoolType =`SchoolType`,
+     $SchoolManager =`SchoolManager`, $SchoolPhone =`SchoolPhone`,
+     $SchoolMobile =`SchoolMobile`, $SchoolWhatsapp=`SchoolWhatsapp`, 
+     $SchoolEmail =`SchoolEmail`, $SchoolRegion =`SchoolRegion`,
+     $SchoolCity =`SchoolCity`, $SchoolDistrict =`SchoolDistrict`, 
+     $SchoolSpecialty =`SchoolSpecialty`, $SchoolSyllabus =`SchoolSyllabus`,
+     $RegistrationDate =`RegistrationDate`, $StartContract =`StartContract`,
+     $EndContract =`EndContract`  WHERE Id = '$SchoolId'";
+
+    if ($conn->query($RegisterSystem) === TRUE) {
+      // echo "New record created successfully";
+      // echo "<script>alert('Record inserted successfully');</script>";
+      header("location:schools_system.php");
+      exit;
+    } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+    $conn->close();
     
 }
 
